@@ -1,8 +1,16 @@
 # me
 Personal page and portifolio
 
-## For developing:
+## Commands:
+
+For developing:
 
 ```
 $ npx gatsby develop
+```
+
+For building:
+
+```
+$ npm run-script build
 ```
