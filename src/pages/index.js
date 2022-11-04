@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <Layout>
       <div>Hello world!</div>
-      <img src="/faceFocusWaterpixels.png" alt="me" />
+      <img src="/me/faceFocusWaterpixels.png" alt="me" />
     </Layout>
   )
 }

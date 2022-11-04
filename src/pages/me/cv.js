@@ -4,7 +4,12 @@ import Layout from "../../components/Layout"
 export default function CV() {
   return (
     <Layout>
-        <div>This is my CV.</div>
+        <div>
+          <p>This is my CV.</p>
+          <p>This is my CV 2.</p>
+          <p>This is my CV 3.</p>
+        </div>
+
     </Layout>
   )
 }
