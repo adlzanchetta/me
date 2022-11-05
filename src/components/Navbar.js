@@ -11,7 +11,7 @@ export default function Navbar() {
   return (
       <nav className="navbar navbar-expand-lg bg-secondary fixed-top bg-white" id="mainNav">
         <div className="container">
-            <a className="navbar-brand" href="/"><strong>A</strong>ndre D. L. <strong>Z</strong>anchetta</a>
+            <a className="navbar-brand" href={`${base_url}/`}><strong>A</strong>ndre D. L. <strong>Z</strong>anchetta</a>
             <button className="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
                 <i className="fas fa-bars"></i>
@@ -29,21 +29,3 @@ export default function Navbar() {
     </nav>
   )
 }
-
-/*
-export default function Navbar() {
-  return (
-    <nav>
-      <div className="central">
-        <div style={{width:"40%", float:"left"}}> Andre D. L. Zanchetta</div>
-        <div style={{width:"59%", float:"right"}}>
-          <Link to="/">Home</Link>
-          <Link to="/me/cv">CV</Link>
-          <Button to="/me/cv" >CVs</Button>
-        </div>
-      </div>
-      <hr />
-    </nav>
-  )
-}
-*/

@@ -24,5 +24,11 @@ Error loading a result for the page query in "index" / "/". Query was not run an
 The command may help:
 
 ```
+$ npm run-script clean
+```
+
+which is the same as:
+
+```
 $ npx gatsby clean
 ```
